@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
-import { Lato } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css';
+import Navbar from './components/Navbar';
 
 
 
-const lato = Lato({ weight:'400',subsets: ['latin']})
+const lato = Poppins({ weight:'400',subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'Copyforest',
@@ -18,7 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={lato.className}>{children}</body>
+      <body className={lato.className}>
+        <main>
+          <Navbar />
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
