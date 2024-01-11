@@ -9,11 +9,11 @@ export default function Home() {
         <script src="https://getlaunchlist.com/js/widget.js" defer></script>
       </Head>
 
-      <div className="flex flex-col justify-start align-start w-[100%] mt-[5rem]">
+      <div className="flex flex-col justify-start align-start w-[100%] sm:mt-[5rem] xsm:mt-[3rem]">
         <div className="sm:w-[80%] self-center xsm:w-[100%]">
          <div className="flex flex-col justify-center px-[1.35rem] ">
             <h1 className="sm:text-[63px] xsm:text-[45px] font-[800] m-0 text-[#171717] sm:w-[80%] xsm:w-[100%] self-center text-center sm:leading-[4rem] xsm:leading-[3.5rem] xsm:mr-4 sm:mr-0">Convert visiting leads to <span className='text-[#0F9D58]'>permanent</span> customers</h1>
-            <p className=" text-[16px] text-[#434649] leading-[1.6rem] pb-[1.5rem] w-[75%] self-center text-center mt-[1.5rem]"> Communicating with prospective customers can be a lot easier. With a mixture of human brilliance and AI sophistication, copyforest helps you find the right voice to share your values and convince your leads to choose you.</p>
+            <p className=" text-[16px] text-[#434649] leading-[1.6rem] pb-[1.5rem] sm:w-[75%] xsm:w-[100%] self-center text-center mt-[1.5rem]"> Communicating with prospective customers can be a lot easier. With a mixture of human brilliance and AI sophistication, copyforest helps you find the right voice to share your values and convince your leads to choose you.</p>
             <p className="text-center pb-[1rem] pt-[0.35rem] font-[700] text-[18px]"> Features to expect:</p>
          </div>
 
